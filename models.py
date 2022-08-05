@@ -3,10 +3,7 @@ from sqlalchemy import Column, String, Integer, create_engine
 from flask_sqlalchemy import SQLAlchemy
 import json
 
-DB_HOST = 'localhost:5432'
-DB_USER = 'postgres'
-DB_NAME = 'people'
-database_path = 'postgres://rmirvxxujnyole:dc40049f8a3219969496371a3260ffdeec50a809cd46f38271082f8b102714eb@ec2-44-197-128-108.compute-1.amazonaws.com:5432/d3jhhfs07qm45t'
+database_path = 'postgres://csllgrnr:CSeILnYSip_PiQynNx7KsDewRsYBZ0qg@kandula.db.elephantsql.com/csllgrnr'
 
 db = SQLAlchemy()
 
